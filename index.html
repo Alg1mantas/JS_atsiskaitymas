@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <form method="post" id="prisijungti">
+        <label for="loginName">User name:</label><br />
+        <input
+          type="text"
+          id="loginName"
+          name="loginName"
+          value="User name"
+        /><br />
+        <label for="loginPassword">Password:</label><br />
+        <input
+          type="password"
+          id="loginPassword"
+          name="loginPassword"
+          value=""
+        />
+        <br />
+        <input type="submit" value="Prisijungti" />
+      </form>
+      <button onclick="window.location.href='register.html'">Register</button>
+    </div>
+  </body>
+</html>

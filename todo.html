@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="todo.js" defer></script>
+  </head>
+  <link rel="stylesheet" href="todo.css">
+  <body>
+    <button type="submit" id="logOut" onclick="logout()">Log out</button>
+    <h3>Sveiki atvyke į todo app</h3>
+    <!-- <button type="submit" id="pridetiIrasaTodo" onclick="appendNewEntry()">
+      Prideti irasa
+    </button> -->
+    <br />
+    <br />
+    </div>
+    <button class="trigger">Click here to trigger the modal!</button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1>Hello, I am a modal!</h1>
+            <form method="post" id="sukurtiIrasa">
+              <label for="pavadinimas">Pavadinimas:</label><br />
+              <input
+                type="text"
+                id="pavadinimas"
+                name="pavadinimas"
+                value="iveskite pavadinima"
+              /><br />
+              <label for="tekstas">Tekstas:</label><br />
+              <input
+                type="text"
+                id="tekstas"
+                name="tekstas"
+                value=""
+              />
+              <br />
+              <input type="submit" value="paskelbtiIrasa" />
+            </form>
+        </div>
+    </div> 
+    <div id="main"></div>
+    <!-- <div class="divas">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti rem voluptas eaque quia. Consequatur iste dignissimos ea doloribus, in officiis voluptatibus molestias voluptas voluptatem obcaecati? Cupiditate doloribus a accusantium vitae.</p>
+      <button class="updateEntry">Click here to trigger the modal!</button>
+      <button class="DeleteEntry">Click here to trigger the modal!</button>
+    </div> -->
+  </body>
+</html>
