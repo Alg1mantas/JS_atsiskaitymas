@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  background-color: #f2eee5;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+#btn {
+  width: 300px;
+  border: none;
+  padding: 15px;
+  color: #482307;
+  background-color: #d7d5d5;
+  font-size: 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Arial, "Noto Sans";
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#btn:hover {
+  background-color: #f3f4f6;
+}

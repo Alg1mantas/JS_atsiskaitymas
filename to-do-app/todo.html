@@ -31,7 +31,7 @@
                 value="iveskite pavadinima"
               /><br />
               <label for="tekstas">Tekstas:</label><br />
-              <input
+              <input    
                 type="text"
                 id="tekstas"
                 name="tekstas"
@@ -48,5 +48,22 @@
       <button class="updateEntry">Click here to trigger the modal!</button>
       <button class="DeleteEntry">Click here to trigger the modal!</button>
     </div> -->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <form class="editPostForm" action="">
+                <label for="id">Id</label> <br />
+                <input type="text" id="id" name="id" disabled /> <br />
+                <label for="title">Title</label> <br />
+                <input type="text" id="title" name="title" /> <br />
+                <label for="content">Content</label> <br />
+                <input type="text" id="content" name="content" /> <br />
+                <input type="submit" value="Save Post" />
+              </form>
+            </div>
+          </div>
+          <div class="posts"></div>
   </body>
 </html>

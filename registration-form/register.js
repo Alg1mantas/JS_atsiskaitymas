@@ -16,6 +16,6 @@ function fecas(username, password) {
       password: password,
     }),
   }).then(() => {
-    window.location.href = "sveikiname.html";
+    <button onclick="window.location.href='register.html'">Register</button>;
   });
 }
